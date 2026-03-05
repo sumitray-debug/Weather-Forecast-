@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Weather Forecast</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <div class="container">
+    <h1>Weather Forecast</h1>
+
+    <div class="search-box">
+      <input type="text" id="cityInput" placeholder="Search any city in the world...">
+      <button onclick="getWeather()">Search</button>
+    </div>
+
+    <div class="current-weather" id="currentWeather"></div>
+
+    <div class="forecast-container" id="forecast"></div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
